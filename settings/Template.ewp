@@ -146,7 +146,7 @@
         </option>
         <option>
           <name>RTConfigPath</name>
-          <state>xxx.h</state>
+          <state></state>
         </option>
         <option>
           <name>RTLibraryPath</name>
@@ -248,7 +248,7 @@
         <option>
           <name>GRuntimeLibSelectSlave2</name>
           <version>0</version>
-          <state>1</state>
+          <state>3</state>
         </option>
       </data>
     </settings>
@@ -261,7 +261,7 @@
         <debug>1</debug>
         <option>
           <name>OutputFile</name>
-          <state></state>
+          <state>$FILE_BNAME$.r51</state>
         </option>
         <option>
           <name>CCDefines</name>
@@ -2066,9 +2066,18 @@
   </configuration>
   <group>
     <name>app</name>
+    <file>
+      <name>$PROJ_DIR$\..\app\main.c</name>
+    </file>
   </group>
   <group>
     <name>drive</name>
+    <file>
+      <name>$PROJ_DIR$\..\drive\led.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drive\led.h</name>
+    </file>
   </group>
 </project>
 

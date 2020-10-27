@@ -2,14 +2,84 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>2833895817</fileChecksum>
+  <fileChecksum>1906499409</fileChecksum>
   <configuration>
     <name>Debug</name>
-    <outputs/>
+    <outputs>
+      <file>$PROJ_DIR$\..\drive\key.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\Template.d51</file>
+      <file>$PROJ_DIR$\..\drive\led.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Template.pbd</file>
+      <file>$PROJ_DIR$\..\drive\led.c</file>
+      <file>$PROJ_DIR$\..\app\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+      <file>$PROJ_DIR$\..\drive\key.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Template.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 4 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drive\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
   </configuration>
   <configuration>
     <name>Release</name>
     <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
   </configuration>
 </project>
 
