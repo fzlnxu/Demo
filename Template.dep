@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2833895817</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\app\main.c</file>
+      <file>$PROJ_DIR$\drive\led.h</file>
+      <file>$PROJ_DIR$\drive\led.c</file>
+    </outputs>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+  </configuration>
+</project>
+
+
